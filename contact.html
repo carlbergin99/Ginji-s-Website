@@ -1,0 +1,74 @@
+	<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Ginji Website </title> <!-- Title of Page here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+      
+      <!-- Text Decoration for Links -->
+      <style>
+        a:link {
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: none;
+        }
+    </style>
+      
+  </head>
+    
+    <body>
+        
+        <!-- Title -->
+        <a href="index.html">
+            <div class="header">
+            <h1 class="text-center"> Ginji Kinashi </h1>
+        </div>
+        </a>
+                <!-- Subitle -->
+        <a href="contact.html">
+            <div class="subheader">
+            <h2 class="text-center"> Contact</h2>
+        </div>
+        </a>
+        
+        
+        <!-- Contact Form  https://formsubmit.co/ -->
+        <div class="container containertype2">
+            <form action="https://formsubmit.co/your@gmail.com" method="POST">
+                <div class="row contact-row mx-auto">
+                    <div id="fullnamediv">
+                        <input id="fullnamebox" type="text" name="Name" placeholder="Full Name" required> 
+                    </div>
+                    <div id="emaildiv">
+                        <input id="emailbox" type="email" name="Email" placeholder="Email" required>
+                    </div>
+                </div>
+                <div clas="row contact-row"> 
+                    <input id="subjectbox" class="contact-row" type="text" name="Subject" placeholder="Subject" required> </div>
+                <div class="row contact-row mx-auto">
+                        <textarea id="messagebox" name="Message" placeholder="Message" required> </textarea>
+                </div>
+                
+                <div id="sendbox" class="row"> 
+                    <button id="sendbutton" type="submit">Send</button> 
+                </div>
+            </form>
+        </div>
+
+        
+
+    
+      <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
+    
+
+    
+    
